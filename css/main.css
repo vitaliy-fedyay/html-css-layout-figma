@@ -20,6 +20,8 @@ h6 {
 ul,
 li {
   display: block;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -31,7 +33,7 @@ li {
   background: url("../img/header-bg.jpg") no-repeat center top / cover;
 }
 
-header a {
+.header a {
   color: #fff;
 }
 
@@ -43,6 +45,7 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
+  letter-spacing: 0.1em;
 }
 
 .menu li {
@@ -52,9 +55,53 @@ header a {
 .tel {
   text-decoration: none;
   font-size: 17px;
-  margin-left: auto; /*Прижимаэмо елемент до правого краю контейнера*/
+  margin-left: auto; /*Прижимаємо елемент до правого краю контейнера*/
+  letter-spacing: 0.1em;
 }
 
 .nav {
   display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 69px;
+}
+
+.header {
+  padding-top: 57px;
+  height: 900px;
+}
+
+.offer {
+  border: 1px solid #fff;
+  width: 511px;
+  height: 257px;
+  color: #fff;
+  margin-bottom: 322px;
+  margin-top: 216px;
+}
+
+.btn {
+  border: 1px solid #fff;
+  font-size: 17px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  padding-top: 18px;
+  padding-bottom: 17px;
+  padding-left: 23px;
+  padding-right: 23.52px;
+  margin-bottom: 0px;
+}
+
+.offer p {
+  margin: 0;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.offer h1 {
+  height: 137px;
+  font-size: 100px;
 }
