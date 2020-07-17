@@ -2,7 +2,6 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Anton", sans-serif;
-  color: 000;
   font-size: 16px;
 }
 
@@ -28,6 +27,8 @@ li {
   width: 1170px; /*ширина контейнера кожного блоку*/
   margin: auto; /*позиціонування контейнера по центру*/
 }
+
+/****************************HEADER*****************************/
 
 .header {
   background: url("../img/header-bg.jpg") no-repeat center top / cover;
@@ -74,7 +75,6 @@ li {
 }
 
 .offer {
-  border: 1px solid #fff;
   width: 511px;
   height: 257px;
   color: #fff;
@@ -83,10 +83,14 @@ li {
 }
 
 .btn {
+  display: block;
+  width: 192px;
   border: 1px solid #fff;
   font-size: 17px;
   letter-spacing: 0.1em;
   text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
   padding-top: 18px;
   padding-bottom: 17px;
   padding-left: 23px;
@@ -102,6 +106,56 @@ li {
 }
 
 .offer h1 {
-  height: 137px;
   font-size: 100px;
+}
+
+/******************ABOUT***********************/
+section {
+  padding-top: 113px;
+}
+
+section h2 {
+  font-size: 50px;
+  margin-bottom: 58px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description h3 {
+  font-size: 25px;
+}
+
+.description p {
+  width: 564px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-align: justify; /*Рівний текст як в журналі*/
+  font-weight: normal;
+  line-height: 1.62em;
+}
+
+.gallery {
+  margin-top: 67px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/************************FOOTER*****************************/
+footer {
+  padding-top: 114px;
+  padding-bottom: 80px;
+}
+
+.footer-text {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.footer-text p {
+  margin-right: 67px;
 }
